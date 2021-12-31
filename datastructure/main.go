@@ -1,8 +1,8 @@
 package main
 
 import (
-	binarytree "datastructure/binarytree"
 	"fmt"
+	binarytree "playground/algo-practice/datastructure/binarytree"
 )
 
 func main() {

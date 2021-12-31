@@ -1,0 +1,3 @@
+module playground/algo-practice/populating_next_each_right_pointer_in_each_node
+
+go 1.17

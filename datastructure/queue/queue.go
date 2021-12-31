@@ -11,7 +11,7 @@ type CustomQueue struct {
 	queue *list.List
 }
 
-func (c *CustomQueue) New() *CustomQueue {
+func New() *CustomQueue {
 	return &CustomQueue{list.New()}
 }
 

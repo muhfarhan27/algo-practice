@@ -1,8 +1,8 @@
 package binarytree
 
 import (
-	queueCustom "datastructure/queue"
-	stackCustom "datastructure/stack"
+	queueCustom "playground/algo-practice/datastructure/queue"
+	stackCustom "playground/algo-practice/datastructure/stack"
 )
 
 type BinaryNode struct {
@@ -16,8 +16,7 @@ type BinaryTree struct {
 }
 
 func (t *BinaryTree) DFS() []interface{} {
-	stackInit := stackCustom.CustomStack{}
-	stack := stackInit.New()
+	stack := stackCustom.New()
 	temp := []interface{}{}
 	if t.Root == nil {
 		return temp
@@ -41,8 +40,7 @@ func (t *BinaryTree) DFS() []interface{} {
 }
 
 func (t *BinaryTree) BFS() []interface{} {
-	qCustom := queueCustom.CustomQueue{}
-	q := qCustom.New()
+	q := queueCustom.New()
 	temp := []interface{}{}
 	if t.Root == nil {
 		return temp

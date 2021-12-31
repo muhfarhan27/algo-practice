@@ -11,7 +11,7 @@ type CustomStack struct {
 	stack *list.List
 }
 
-func (c *CustomStack) New() *CustomStack {
+func New() *CustomStack {
 	return &CustomStack{list.New()}
 }
 
